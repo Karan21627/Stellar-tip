@@ -1,4 +1,4 @@
-name: CI
+name: Astro-Tip CI/CD
 
 on:
   push:
@@ -10,7 +10,6 @@ on:
 
 jobs:
   frontend:
-    name: Frontend Build
     runs-on: ubuntu-latest
 
     steps:
@@ -21,15 +20,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Run Lint (non-blocking)
+        run: npm run lint --if-present || true
+
+      - name: Run Tests
+        run: npm test --if-present
 
       - name: Build Frontend
         run: npm run build
 
   smart-contract:
-    name: Build Soroban Smart Contract
     runs-on: ubuntu-latest
 
     defaults:
@@ -43,14 +48,14 @@ jobs:
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
 
-      - name: Add WASM Target
-        run: rustup target add wasm32v1-none
+      - name: Add WebAssembly Target
+        run: rustup target add wasm32-unknown-unknown
 
       - name: Cache Cargo
         uses: Swatinem/rust-cache@v2
 
       - name: Build Smart Contract
-        run: cargo build --target wasm32v1-none --release
+        run: cargo build --target wasm32-unknown-unknown --release
 
       - name: Run Smart Contract Tests
         run: cargo test
