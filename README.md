@@ -18,8 +18,7 @@ https://vercel.com/akashhhh
 
 Watch the complete project demonstration:
 
-https://youtu.be/Ia0MADcjq9s?si=aYNvkPQfgWiP49jz
-
+https://youtu.be/9bC8JDTneCU?si=B51fhnYIz0jjVGeE
 ---
 
 ## 📂 GitHub Repository
