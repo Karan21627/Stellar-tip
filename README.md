@@ -22,8 +22,7 @@ https://youtu.be/9bC8JDTneCU?si=B51fhnYIz0jjVGeE
 ---
 
 ## 📂 GitHub Repository
-
-https://github.com/Akash2468jee
+https://github.com/Karan21627
 
 ---
 
