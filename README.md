@@ -269,6 +269,14 @@ Workflow file:
 - Demo Video
 
 ---
+Contract ID:
+CD63ZK3IC5Y2GHWLQI66GSYFW7R4ZD76P2MYFHNCVMDGHSZINCIXOWXG
+
+Deployment Transaction Hash:
+e5c8356d2ff079e78e729b62944288d66c6e0f354ef48fa8f1dcf4a7d6ff4864
+
+Contract Explorer (Stellar Testnet):
+https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CD63ZK3IC5Y2GHWLQI66GSYFW7R4ZD76P2MYFHNCVMDGHSZINCIXOWXG;
 
 ## 📈 Git Commit History
 
