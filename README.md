@@ -142,13 +142,6 @@ package.json
 
 ## 🚀 Installation & Setup
 
-### Clone Repository
-
-```bash
-git clone https://github.com/Akash2468jee/Stellar.git
-cd Stellar
-```
-
 > **Note:** Replace `Stellar` with your actual repository name if it's different.
 
 ### Install Dependencies
