@@ -22,7 +22,7 @@ https://youtu.be/9bC8JDTneCU?si=B51fhnYIz0jjVGeE
 ---
 
 ## 📂 GitHub Repository
-https://github.com/Karan21627
+https://github.com/Karan21627/Stellar-tip
 
 ---
 
