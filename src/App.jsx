@@ -216,7 +216,7 @@ export default function App() {
         {/* Title branding header */}
         <section className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-3 bg-gradient-to-r from-white via-slate-100 to-stellar-secondary bg-clip-text text-transparent">
-            StellarPay
+            Stellar Tip
           </h1>
           <p className="text-md sm:text-lg text-slate-400 max-w-xl mx-auto">
             Vibrant multi-wallet payments and interactive Soroban tip jars.

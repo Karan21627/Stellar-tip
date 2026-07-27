@@ -22,7 +22,7 @@ export default function Navbar({ publicKey, walletType, onOpenConnectModal, onDi
             </div>
             <div>
               <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-100 to-stellar-secondary bg-clip-text text-transparent">
-                StellarPay
+                Stellar Tip
               </span>
               <span className="ml-1.5 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-stellar-accent/15 text-stellar-accent border border-stellar-accent/20">
                 TESTNET
