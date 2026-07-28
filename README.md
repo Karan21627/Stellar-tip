@@ -10,7 +10,8 @@ Stellar Tip allows users to connect Stellar wallets, view balances, send XLM pay
 
 **Live Application:**
 
-https://vercel.com/akashhhh
+https://stellar-tip-neon.vercel.app/
+
 
 ---
 
